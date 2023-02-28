@@ -1,0 +1,293 @@
+---
+includes:
+        - !include ../data/login.yaml
+
+test_name: create user user5
+
+stages:
+    - type: ref
+      id: login
+
+    - name: create user user5
+      request:
+        url: "{scim_server_url}/v2/Users"
+        json: 
+          "schemas": [
+                  "urn:ietf:params:scim:schemas:core:2.0:User",
+                  "urn:ietf:params:scim:schemas:extension:enterprise:2.0:User",
+                  "urn:ietf:params:scim:schemas:microfocus:idrepo:User"
+              ],
+          "userName": "user5",
+          "nickName": "user5",
+          "title": "Senior Software Engineer",
+          "userType": "Contract",
+          "preferredLanguage": "English",
+          "emails": [
+              {
+                  "value": "user5@lab.com",
+                  "type": "work"
+              },
+              {
+                  "value": "user5@gmail.com",
+                  "type": "home"
+              }
+          ],
+          "addresses": [
+              {
+                  "formatted": "Delhi Delhi Delhi 77054",
+                  "streetAddress": "Delhi",
+                  "locality": "Delhi",
+                  "region": "Delhi",
+                  "postalCode": "77054",
+                  "type": "home"
+              },
+              {
+                  "formatted": "Delhi Delhi 10026",
+                  "streetAddress": "Delhi",
+                  "locality": "Delhi",
+                  "postalCode": "10026",
+                  "type": "work"
+              }
+            ],
+            "employeeNumber": "E000026",
+            "organization": [
+                    "Compliance"
+                ]
+        method: POST
+        headers:
+          content-type: application/scim+json
+          X-CSRF-Token: "{csrf_token}"  
+
+
+
+
+
+
+---
+includes:
+        - !include ../data/login.yaml
+
+test_name: create user user6
+
+stages:
+    - type: ref
+      id: login
+
+    - name: create user user6
+      request:
+        url: "{scim_server_url}/v2/Users"
+        json: 
+          "schemas": [
+                  "urn:ietf:params:scim:schemas:core:2.0:User",
+                  "urn:ietf:params:scim:schemas:extension:enterprise:2.0:User",
+                  "urn:ietf:params:scim:schemas:microfocus:idrepo:User"
+              ],
+          "userName": "user6",
+          "nickName": "user6",
+          "title": "Manager",
+          "userType": "Contract",
+          "preferredLanguage": "English",
+          "emails": [
+              {
+                  "value": "user5@lab.com",
+                  "type": "work"
+              },
+              {
+                  "value": "user5@gmail.com",
+                  "type": "home"
+              }
+          ],
+          "addresses": [
+                {
+                    "formatted": "Jharkhand Jharkhand Jharkhand 77054",
+                    "streetAddress": "Jharkhand",
+                    "locality": "Jharkhand",
+                    "region": "Jharkhand",
+                    "postalCode": "77054",
+                    "type": "home"
+                },
+                {
+                    "formatted": "50 Upper 5th Jharkhand 10026",
+                    "streetAddress": "50 Upper 5th",
+                    "locality": "Jharkhand",
+                    "postalCode": "10026",
+                    "type": "work"
+                }
+          ],
+          "employeeNumber": "E000027",
+          "organization": [
+              "Compliance"
+          ]
+        method: POST
+        headers:
+          content-type: application/scim+json
+          X-CSRF-Token: "{csrf_token}"  
+
+
+
+
+---
+includes:
+        - !include ../data/login.yaml
+
+test_name: create user user7
+
+stages:
+    - type: ref
+      id: login
+
+    - name: create user user7
+      request:
+        url: "{scim_server_url}/v2/Users"
+        json: 
+          "schemas": [
+                  "urn:ietf:params:scim:schemas:core:2.0:User",
+                  "urn:ietf:params:scim:schemas:extension:enterprise:2.0:User",
+                  "urn:ietf:params:scim:schemas:microfocus:idrepo:User"
+              ],
+          "userName": "user7",
+          "nickName": "user7",
+          "title": "Senior Software Engineer",
+          "userType": "Contract",
+          "preferredLanguage": "English",
+          "emails": [
+              {
+                  "value": "user7@lab.com",
+                  "type": "work"
+              },
+              {
+                  "value": "user7@gmail.com",
+                  "type": "home"
+              }
+          ],
+          "addresses": [
+              {
+                  "formatted": "UP UP UP 77054",
+                  "streetAddress": "UP",
+                  "locality": "UP",
+                  "region": "UP",
+                  "postalCode": "77054",
+                  "type": "home"
+              },
+              {
+                  "formatted": "50 Upper 5th UP 10026",
+                  "streetAddress": "50 Upper 5th",
+                  "locality": "UP",
+                  "postalCode": "10026",
+                  "type": "work"
+              }
+          ],
+          "employeeNumber": "E000028",
+          "organization": [
+              "Compliance"
+          ]
+        method: POST
+        headers:
+          content-type: application/scim+json
+          X-CSRF-Token: "{csrf_token}"  
+
+
+---
+includes:
+        - !include ../data/login.yaml
+
+test_name: create user user8
+
+stages:
+    - type: ref
+      id: login
+
+    - name: create user user8
+      request:
+        url: "{scim_server_url}/v2/Users"
+        json: 
+          "schemas": [
+                  "urn:ietf:params:scim:schemas:core:2.0:User",
+                  "urn:ietf:params:scim:schemas:extension:enterprise:2.0:User",
+                  "urn:ietf:params:scim:schemas:microfocus:idrepo:User"
+              ],
+          "userName": "user8",
+          "nickName": "user8",
+          "title": "Senior Software Engineer",
+          "preferredLanguage": "English",
+          "emails": [
+              {
+                  "value": "user8@lab.com",
+                  "type": "work"
+              },
+              {
+                  "value": "user8@gmail.com",
+                  "type": "home"
+              }
+          ],
+         
+          "employeeNumber": "E000029",
+          "organization": [
+              "Compliance"
+          ]
+        method: POST
+        headers:
+          content-type: application/scim+json
+          X-CSRF-Token: "{csrf_token}"  
+
+
+---
+includes:
+        - !include ../data/login.yaml
+
+test_name: create user user9
+
+stages:
+    - type: ref
+      id: login
+
+    - name: create user user9
+      request:
+        url: "{scim_server_url}/v2/Users"
+        json: 
+          "schemas": [
+                  "urn:ietf:params:scim:schemas:core:2.0:User",
+                  "urn:ietf:params:scim:schemas:extension:enterprise:2.0:User",
+                  "urn:ietf:params:scim:schemas:microfocus:idrepo:User"
+              ],
+          "userName": "user9",
+          "nickName": "user9",
+          "title": "SSE",
+          "userType": "Contract",
+          "preferredLanguage": "English",
+          "emails": [
+              {
+                  "value": "user9@lab.com",
+                  "type": "work"
+              },
+              {
+                  "value": "user9@gmail.com",
+                  "type": "home"
+              }
+            ],
+          "addresses": [
+                {
+                    "formatted": "MP MP MP 77054",
+                    "streetAddress": "MP",
+                    "locality": "MP",
+                    "region": "MP",
+                    "postalCode": "77054",
+                    "type": "home"
+                },
+                {
+                    "formatted": "50 Upper 5th MP 10026",
+                    "streetAddress": "50 Upper 5th",
+                    "locality": "MP",
+                    "postalCode": "10026",
+                    "type": "work"
+                }
+            ],
+          "employeeNumber": "E000030",
+          "organization": [
+              "Compliance"
+          ]
+        method: POST
+        headers:
+          content-type: application/scim+json
+          X-CSRF-Token: "{csrf_token}"  
+

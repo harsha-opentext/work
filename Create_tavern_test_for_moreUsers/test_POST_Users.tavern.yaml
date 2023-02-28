@@ -1,0 +1,119 @@
+---
+includes:
+        - !include ../data/login.yaml
+
+test_name:  create user mcarey
+
+stages:
+    - type: ref
+      id: login
+
+    - name: create user mcarey
+      request:
+        url: "{scim_server_url}/v2/Users"
+        json: 
+          "schemas": [
+                "urn:ietf:params:scim:schemas:core:2.0:User",
+                "urn:ietf:params:scim:schemas:extension:enterprise:2.0:User",
+                "urn:ietf:params:scim:schemas:microfocus:idrepo:User"
+            ],
+            "userName": "mcarey",
+            "nickName": "Mary",
+            "title": "Chief Ethics & Compliance Officer",
+            "userType": "employee",
+            "preferredLanguage": "English",
+            "emails": [
+                {
+                    "value": "mcarey@lab.com",
+                    "type": "work"
+                },
+                {
+                    "value": "mcarey@gmail.com",
+                    "type": "home"
+                }
+            ],
+            "addresses": [
+                {
+                    "formatted": "340 Mellon Street Houston Texas 77054",
+                    "streetAddress": "340 Mellon Street",
+                    "locality": "Houston",
+                    "region": "Texas",
+                    "postalCode": "77054",
+                    "type": "home"
+                },
+                {
+                    "formatted": "50 Upper 5th New York 10026",
+                    "streetAddress": "50 Upper 5th",
+                    "locality": "New York",
+                    "postalCode": "10026",
+                    "type": "work"
+                }
+            ],
+            "employeeNumber": "E000001",
+            "organization": [
+                    "Compliance"
+                ]
+        method: POST
+        headers:
+          content-type: application/scim+json
+          X-CSRF-Token: "{csrf_token}"
+
+
+
+
+
+          
+      response:
+        headers:
+          content-type: application/scim+json
+        strict:
+          - json:off
+        status_code: 201
+        json:
+          id: !anystr
+          meta:
+            resourceType: !anystr
+            created: !anystr
+            lastModified: !anystr
+            location: !anystr
+          schemas:
+            - "urn:ietf:params:scim:schemas:core:2.0:User"
+            - "urn:ietf:params:scim:schemas:extension:enterprise:2.0:User"
+            - "urn:ietf:params:scim:schemas:microfocus:idrepo:User"
+          userName: mcarey
+          nickName: Mary
+          title: Chief Ethics & Compliance Officer
+          userType: employee
+          preferredLanguage: English
+          emails:
+            - {
+                    "value": "mcarey@lab.com",
+                    "type": "work"
+                },
+            - {
+                    "value": "mcarey@gmail.com",
+                    "type": "home"
+                }
+          addresses:
+            - {
+                    "formatted": "340 Mellon Street Houston Texas 77054",
+                    "streetAddress": "340 Mellon Street",
+                    "locality": "Houston",
+                    "region": "Texas",
+                    "postalCode": "77054",
+                    "type": "home"
+                },
+            - {
+                    "formatted": "50 Upper 5th New York 10026",
+                    "streetAddress": "50 Upper 5th",
+                    "locality": "New York",
+                    "postalCode": "10026",
+                    "type": "work"
+                }
+          "urn:ietf:params:scim:schemas:extension:enterprise:2.0:User": {
+                "employeeNumber": "E000001",
+                "organization":
+                  - "Compliance"
+          }
+          
+          

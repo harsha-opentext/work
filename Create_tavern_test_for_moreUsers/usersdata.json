@@ -1,0 +1,268 @@
+{
+            "id": "33149",
+            "meta": {
+                "resourceType": "User",
+                "created": "2023-02-24T19:39:23Z",
+                "lastModified": "2023-02-24T19:39:23Z",
+                "location": "/v2/Users/33149"
+            },
+            "schemas": [
+                "urn:ietf:params:scim:schemas:core:2.0:User",
+                "urn:ietf:params:scim:schemas:extension:enterprise:2.0:User",
+                "urn:ietf:params:scim:schemas:microfocus:idrepo:User"
+            ],
+            "userName": "user5",
+            "nickName": "user5",
+            "title": "Senior Software Engineer",
+            "userType": "Contract",
+            "preferredLanguage": "English",
+            "emails": [
+                {
+                    "value": "user5@lab.com",
+                    "type": "work"
+                },
+                {
+                    "value": "user5@gmail.com",
+                    "type": "home"
+                }
+            ],
+            "addresses": [
+                {
+                    "formatted": "Delhi Delhi Delhi 77054",
+                    "streetAddress": "Delhi",
+                    "locality": "Delhi",
+                    "region": "Delhi",
+                    "postalCode": "77054",
+                    "type": "home"
+                },
+                {
+                    "formatted": "Delhi Delhi 10026",
+                    "streetAddress": "Delhi",
+                    "locality": "Delhi",
+                    "postalCode": "10026",
+                    "type": "work"
+                }
+            ],
+            "urn:ietf:params:scim:schemas:extension:enterprise:2.0:User": {
+                "employeeNumber": "E000026",
+                "organization": [
+                    "Compliance"
+                ]
+            },
+            "urn:ietf:params:scim:schemas:microfocus:idrepo:User": {
+                "identity": "3009337c-31bd-493c-b18b-2a91c7ea01a1"
+            }
+        },
+
+
+
+
+
+        {
+            "id": "33151",
+            "meta": {
+                "resourceType": "User",
+                "created": "2023-02-24T19:39:23Z",
+                "lastModified": "2023-02-24T19:39:23Z",
+                "location": "/v2/Users/33151"
+            },
+            "schemas": [
+                "urn:ietf:params:scim:schemas:core:2.0:User",
+                "urn:ietf:params:scim:schemas:extension:enterprise:2.0:User",
+                "urn:ietf:params:scim:schemas:microfocus:idrepo:User"
+            ],
+            "userName": "user6",
+            "nickName": "user6",
+            "title": "Manager",
+            "userType": "Contract",
+            "preferredLanguage": "English",
+            "emails": [
+                {
+                    "value": "user6@lab.com",
+                    "type": "work"
+                },
+                {
+                    "value": "user6@gmail.com",
+                    "type": "home"
+                }
+            ],
+            "addresses": [
+                {
+                    "formatted": "Jharkhand Jharkhand Jharkhand 77054",
+                    "streetAddress": "Jharkhand",
+                    "locality": "Jharkhand",
+                    "region": "Jharkhand",
+                    "postalCode": "77054",
+                    "type": "home"
+                },
+                {
+                    "formatted": "50 Upper 5th Jharkhand 10026",
+                    "streetAddress": "50 Upper 5th",
+                    "locality": "Jharkhand",
+                    "postalCode": "10026",
+                    "type": "work"
+                }
+            ],
+            "urn:ietf:params:scim:schemas:extension:enterprise:2.0:User": {
+                "employeeNumber": "E000027",
+                "organization": [
+                    "Compliance"
+                ]
+            },
+            "urn:ietf:params:scim:schemas:microfocus:idrepo:User": {
+                "identity": "66441556-1df2-4386-97d4-45bb3b4cc4b1"
+            }
+        },
+        {
+            "id": "33153",
+            "meta": {
+                "resourceType": "User",
+                "created": "2023-02-24T19:39:23Z",
+                "lastModified": "2023-02-24T19:39:23Z",
+                "location": "/v2/Users/33153"
+            },
+            "schemas": [
+                "urn:ietf:params:scim:schemas:core:2.0:User",
+                "urn:ietf:params:scim:schemas:extension:enterprise:2.0:User",
+                "urn:ietf:params:scim:schemas:microfocus:idrepo:User"
+            ],
+            "userName": "user7",
+            "nickName": "user7",
+            "title": "Senior Software Engineer",
+            "userType": "Contract",
+            "preferredLanguage": "English",
+            "emails": [
+                {
+                    "value": "user7@lab.com",
+                    "type": "work"
+                },
+                {
+                    "value": "user7@gmail.com",
+                    "type": "home"
+                }
+            ],
+            "addresses": [
+                {
+                    "formatted": "UP UP UP 77054",
+                    "streetAddress": "UP",
+                    "locality": "UP",
+                    "region": "UP",
+                    "postalCode": "77054",
+                    "type": "home"
+                },
+                {
+                    "formatted": "50 Upper 5th UP 10026",
+                    "streetAddress": "50 Upper 5th",
+                    "locality": "UP",
+                    "postalCode": "10026",
+                    "type": "work"
+                }
+            ],
+            "urn:ietf:params:scim:schemas:extension:enterprise:2.0:User": {
+                "employeeNumber": "E000028",
+                "organization": [
+                    "Compliance"
+                ]
+            },
+            "urn:ietf:params:scim:schemas:microfocus:idrepo:User": {
+                "identity": "88d1615d-66f7-4513-afd8-f953c2483e59"
+            }
+        },
+        {
+            "id": "33155",
+            "meta": {
+                "resourceType": "User",
+                "created": "2023-02-24T19:39:23Z",
+                "lastModified": "2023-02-24T19:39:23Z",
+                "location": "/v2/Users/33155"
+            },
+            "schemas": [
+                "urn:ietf:params:scim:schemas:core:2.0:User",
+                "urn:ietf:params:scim:schemas:extension:enterprise:2.0:User",
+                "urn:ietf:params:scim:schemas:microfocus:idrepo:User"
+            ],
+            "userName": "user8",
+            "nickName": "user8",
+            "title": "Senior Software Engineer",
+            "preferredLanguage": "English",
+            "emails": [
+                {
+                    "value": "user8@lab.com",
+                    "type": "work"
+                },
+                {
+                    "value": "user8@gmail.com",
+                    "type": "home"
+                }
+            ],
+            "urn:ietf:params:scim:schemas:extension:enterprise:2.0:User": {
+                "employeeNumber": "E000029"
+            },
+            "urn:ietf:params:scim:schemas:microfocus:idrepo:User": {
+                "identity": "1fd87ca2-e13f-41b8-841b-a55003e0ee82"
+            }
+        },
+
+
+
+
+
+
+        
+        {
+            "id": "33157",
+            "meta": {
+                "resourceType": "User",
+                "created": "2023-02-24T19:39:23Z",
+                "lastModified": "2023-02-24T19:39:23Z",
+                "location": "/v2/Users/33157"
+            },
+            "schemas": [
+                "urn:ietf:params:scim:schemas:core:2.0:User",
+                "urn:ietf:params:scim:schemas:extension:enterprise:2.0:User",
+                "urn:ietf:params:scim:schemas:microfocus:idrepo:User"
+            ],
+            "userName": "user9",
+            "nickName": "user9",
+            "title": "SSE",
+            "userType": "Contract",
+            "preferredLanguage": "English",
+            "emails": [
+                {
+                    "value": "user9@lab.com",
+                    "type": "work"
+                },
+                {
+                    "value": "user9@gmail.com",
+                    "type": "home"
+                }
+            ],
+            "addresses": [
+                {
+                    "formatted": "MP MP MP 77054",
+                    "streetAddress": "MP",
+                    "locality": "MP",
+                    "region": "MP",
+                    "postalCode": "77054",
+                    "type": "home"
+                },
+                {
+                    "formatted": "50 Upper 5th MP 10026",
+                    "streetAddress": "50 Upper 5th",
+                    "locality": "MP",
+                    "postalCode": "10026",
+                    "type": "work"
+                }
+            ],
+            "urn:ietf:params:scim:schemas:extension:enterprise:2.0:User": {
+                "employeeNumber": "E000030",
+                "organization": [
+                    "Compliance"
+                ]
+            },
+            "urn:ietf:params:scim:schemas:microfocus:idrepo:User": {
+                "identity": "52ff92f7-d7f7-400a-be70-ffad83f1a826"
+            }
+        }
+    ]
+}
